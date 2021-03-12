@@ -1,0 +1,64 @@
+[System]
+Name='beasiswamadani01'
+Type='mamdani'
+Version=2.0
+NumInputs=5
+NumOutputs=1
+NumRules=0
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='Wages'
+Range=[0 20]
+NumMFs=3
+MF1='low':'trimf',[0 0 3]
+MF2='medium':'trimf',[2 6 9]
+MF3='high':'trimf',[6.94708994708995 19.9470899470899 19.9470899470899]
+
+[Input2]
+Name='Children'
+Range=[0 10]
+NumMFs=3
+MF1='few':'trimf',[0 0 2]
+MF2='some':'trimf',[1 4 7]
+MF3='many':'trimf',[5 10 10]
+
+[Input3]
+Name='GPA'
+Range=[0 4]
+NumMFs=3
+MF1='low':'trimf',[-1.6 0 1.6]
+MF2='medium':'trimf',[0.4 2 3.6]
+MF3='high':'trimf',[2.4 4 5.6]
+
+[Input4]
+Name='Achievement'
+Range=[0 10]
+NumMFs=3
+MF1='local':'trimf',[0 0 3.974]
+MF2='regional':'trimf',[1 5 9]
+MF3='nasional':'trimf',[6 10 10]
+
+[Input5]
+Name='Organization'
+Range=[0 10]
+NumMFs=4
+MF1='passive':'trimf',[0 0 2]
+MF2='department':'trimf',[1 3 4]
+MF3='faculty':'trimf',[2 5 7]
+MF4='university':'trimf',[6 10 10]
+
+[Output1]
+Name='Score'
+Range=[0 10]
+NumMFs=4
+MF1='very_low':'trimf',[0 0 2]
+MF2='low':'trimf',[1.02645502645503 3.02645502645503 4.02645502645503]
+MF3='high':'trimf',[3 7 8]
+MF4='very_high':'trimf',[6 10 10]
+
+[Rules]

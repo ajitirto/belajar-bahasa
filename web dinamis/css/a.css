@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title>Belajar css <title>
+		<script>
+			body{
+				background-color = red;
+			}
+			h2{
+				background=green;
+			}
+			p{
+				background=yellow;
+			}
+		</script>
+		<body>
+			<h2>Heaader 2, bakground hijau</h2>
+			<h3>Heaader 3, bakground transparan</h3>
+			<p> bakground pada paragraf</p>
+			
+		</body>
+		
+</html>
+		

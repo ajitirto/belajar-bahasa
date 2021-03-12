@@ -1,0 +1,9 @@
+<html>
+	<head>
+		<title>Operasi Hitung luas dan keliling</title>
+		<body>
+			<h1>menghitung luas lingkaran dan keliling</h1>
+			<script>
+				var luas,keliling;
+				
+				luas = parseFloat={prompt{"input your luas: ",''}

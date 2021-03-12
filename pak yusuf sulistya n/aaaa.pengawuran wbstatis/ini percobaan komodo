@@ -1,0 +1,28 @@
+<!--<html>
+    <head>
+            <title>ini talkshow</title>
+    </head>
+    <body>
+        <h1 color="red">ini adalah percobaan saya yang pertama</h1>
+        <p>kini terasa jauh terasa semakin dekat</p>
+        <script>
+            var x,y,z;
+            x=parseInt(prompt("input first Number"));
+            y=parseInt(prompt("input second Number: "));
+            z=x+y;
+            document.write("tambahan dari angka",x," dan ",y, " adalah ",z);
+        </script>
+    </body>
+</html>-->
+
+<html>
+    <head>percobaan saya di aplikasi Komodo</head>
+    <script type="text/javascript" language="javascript">
+        var x;
+            x=parseInt(prompt("input number maksimal: "));
+            while(y=0;y<=x;y++)
+                {
+                    document.write(y);
+                }
+    </script>
+</html>

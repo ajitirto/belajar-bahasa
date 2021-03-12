@@ -1,0 +1,25 @@
+<html>
+<head>
+<style>
+body {
+    background-color: blue;
+}
+
+h1 {
+    color: orange;
+    text-align: right;
+}
+
+p {
+    font-family: "Times New Roman";
+    font-size: 20px;
+}
+</style>
+</head>
+<body>
+
+<h1>biografi</h1>
+<p>This is a paragraph.</p>
+
+
+</body>

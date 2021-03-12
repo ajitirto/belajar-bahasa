@@ -1,0 +1,13 @@
+semua komponen di javascipt di asumsikan sebagia ibject/benda(oop)
+object di bedakna menjasdi dua yaitu:
+							-property(identitas):color,weight,age("garden.cage.ducks.color+"yellow";)
+							-method(kerja):movement,sleep.eat(garde.cage.duck.sleep("terlentang"))
+						klo memanggil java oop=
+						harus memanggil dari luar:
+javascrip apat mengganti apapun
+dom(documen object model)
+
+website
+:http://yusufsulityo.com
+						
+tugas membuat web bebas mengenai bidata aji tirto menggunakan html dan css

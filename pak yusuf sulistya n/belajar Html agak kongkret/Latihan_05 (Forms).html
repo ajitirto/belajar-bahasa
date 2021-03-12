@@ -1,0 +1,66 @@
+<html>
+	<head>
+		<title>Form</title>
+	</head>
+	<body>
+		<h2>Regitration Form</h2>
+		<hr/>
+		<table cellpadding=5>
+			<form>
+				<tr>
+					<td>First Name</td>
+					<td>:</td>
+					<td><input type="text" name="fname"/></td>
+				</tr>
+				<tr>
+					<td>Last Name</td>
+					<td>:</td>
+					<td><input type="text" name="lname"/></td>
+				</tr>
+				<tr>
+					<td>Password</td>
+					<td>:</td>
+					<td><input type="password" name="pass"/></td>
+				</tr>
+				<tr>
+					<td>Sex</td>
+					<td>:</td>
+					<td>
+						<input type="radio" name="sex" value="Male">Male</input>
+						<input type="radio" name="sex" value="Female">Female</input>
+					</td>
+				</tr>
+				<tr>
+					<td valign="top">Hobby</td>
+					<td valign="top">:</td>
+					<td>
+						<input type="checkbox" name="hobby" value="Eating">Eating</input><br/>
+						<input type="checkbox" name="hobby" value="Sleeping">Sleeping</input><br/>
+						<input type="checkbox" name="hobby" value="Singing">Singing</input>
+					</td>
+				</tr>
+				<tr>
+					<td>Religion</td>
+					<td>:</td>
+					<td>
+						<select name="religion">
+							<option value="Moslem">Moslem</option>
+							<option value="Non Moslem">Non Moslem</option>
+							<option value="Others">Others</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td valign="top">Address</td>
+					<td valign="top">:</td>
+					<td><textarea name="address"></textarea></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td><input type="submit" value="Submit"/></td>
+				</tr>
+			</form>
+		</table>
+	</body>
+</html>

@@ -1,0 +1,34 @@
+<html>
+	<head>
+		<title>Exercise 1</title>
+		<script type="text/javascript"></script>
+	</head>
+	<body>
+		<h1>Menghitung Luas Lingkaran dengan HTML...</h1>
+		<script name="lingkaran">
+			var r;
+			r=parseFloat(prompt("Masukkan r (jari-jari) :"));
+			document.write("<br/>Luas      =",22/7*r**2);
+			document.write("<br/>Keliling  =",22/7*r*2);
+		</script>
+		<h1>Menghitung Luas Persegi Panjang dengan HTML...</h1>
+		<script name="persegi panjang">
+			var p,l;
+			p=parseFloat(prompt("Masukkan p (panjang) :"));
+			l=parseFloat(prompt("Masukkan l (lebar) :"));
+			document.write("<br/>Luas      =",(p*l));
+			document.write("<br/>Keliling  =",2*(p+l));
+		</script>
+		<h1>Menghitung Biaya Belanja dengan HTML...</h1>
+		<script>
+			var n,p,j,d;
+			n=prompt("Masukkan Nama Produk :")
+			p=parseFloat(prompt("Masukkan Biaya Produk :"));
+			j=parseFloat(prompt("Masukkan Jumlah Produk :"));
+			d=50.000
+			document.write("<br/>Harga satuan Produk ",n," : Rp.",p)
+			document.write("<br/>Jumlah Produk ",n," : ",j)
+			document.write("<br/>Total Harga :Rp.",p*j)
+		</script>
+	</body>
+</html>
